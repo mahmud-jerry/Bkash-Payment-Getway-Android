@@ -79,7 +79,7 @@ $(document).ready(function(){
                             var value2=data.trxID;
                             var value3=data.amount;
                             var queryString = "?Payment ID = " + value1 + "&Transaction ID = " + value2+ "&Amount = " + value3;
-                            window.location.href = "file:///android_asset/www/checkoutSuccess.html"+ queryString;
+                            window.location.href = "file:///android_asset/checkoutSuccess.html"+ queryString;
                         }
                         else {
                             bKash.execute().onError();
